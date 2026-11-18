@@ -1,0 +1,27 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "description": "Backend Project",
+  "homepage": "https://github.com/akshit-chaudhary0/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/akshit-chaudhary0/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshit-chaudhary0/Backend.git"
+  },
+  "license": "ISC",
+  "author": "Akshit Chaudhary",
+  "type": "module",
+  "main": "Backend/src/index.js",
+  "scripts": {
+    "start": "node Backend/src/index.js",
+    "dev": "nodemon Backend/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.2",
+    "nodemon": "^3.1.14"
+  }
+}
